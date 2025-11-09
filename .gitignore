@@ -1,0 +1,69 @@
+# ==========================
+# Django / Python
+# ==========================
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# ==========================
+# Virtual Environments
+# ==========================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+backend-drf/env/
+
+# ==========================
+# Build / Packaging
+# ==========================
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ==========================
+# Test / Coverage
+# ==========================
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+
+# ==========================
+# React Frontend
+# ==========================
+frontend-reactjs/node_modules/
+frontend-reactjs/build/
+frontend-reactjs/.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.sublime*
+
+# ==========================
+# OS / System
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
