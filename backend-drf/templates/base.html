@@ -38,7 +38,7 @@
 
     <!-- Font awesome 5 -->
     <link
-      href="fonts/fontawesome/css/all.min.css"
+      href="{% static 'fonts/fontawesome/css/all.min.css' %}"
       type="text/css"
       rel="stylesheet"
     />
@@ -67,14 +67,11 @@
 
   <body>
     <!-- Navbar -->
-    {% include 'includes/navbar.html' %} 
-    
-    {% block content %}
+    {% include 'includes/navbar.html' %} {% block content %}
     <!-- body content -->
     {% endblock %}
 
     <!-- Footer -->
     {% include 'includes/footer.html' %}
-    
   </body>
 </html>

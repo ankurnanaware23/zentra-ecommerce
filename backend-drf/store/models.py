@@ -16,6 +16,7 @@ class Product(models.Model):
 
     def get_url(self):
         return reverse('product_detail', args=[self.category.slug, self.slug])
+        # we have mentioned product_detail here because in urls page, name of the path we have mentioned as product_detail
 
     def __str__(self):
         return self.product_name
